@@ -10,7 +10,7 @@ defmodule Wise.MixProject do
     [
       app: :wise,
       version: @version,
-      elixir: "~> 1.14",
+      elixir: "~> 1.18",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       deps: deps(),
